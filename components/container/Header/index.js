@@ -6,11 +6,14 @@ import {
 } from "@heroicons/react/24/outline";
 import { MicrophoneIcon } from "@heroicons/react/24/solid";
 
-export default function Header() {
+export default function Header({ isShow }) {
   return (
     <header className="py-3 flex items-center justify-between">
       <div className="flex items-center gap-3">
-        <button className="p-1 hover:bg-gray-600 trannsition duration-100 rounded-full">
+        <button
+          onClick={isShow}
+          className="p-1 hover:bg-yt-smooth trannsition duration-100 rounded-full"
+        >
           <Bars3Icon className="h-7" />
         </button>
         <h1 className="text-lg font-semibold">YouTube</h1>

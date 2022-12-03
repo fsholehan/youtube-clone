@@ -1,9 +1,10 @@
 import Head from "next/head";
-import Image from "next/image";
+import { useState } from "react";
 import Header from "../components/container/Header";
 import Section from "../components/container/Section";
 
 export default function Home() {
+  const [isShow, setIsShow] = useState(true);
   return (
     <>
       <Head>
@@ -12,7 +13,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Section>
-        <Header />
+        <Header isShow={() => setIsShow(!isShow)} />
       </Section>
     </>
   );
