@@ -8,7 +8,7 @@ import { MicrophoneIcon } from "@heroicons/react/24/solid";
 
 export default function Header({ isShow }) {
   return (
-    <header className="py-3 flex items-center justify-between">
+    <header className="py-3 flex items-center justify-between sticky top-0 z-50 bg-yt-dark">
       <div className="flex items-center gap-3">
         <button
           onClick={isShow}

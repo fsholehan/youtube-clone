@@ -1,0 +1,56 @@
+export default function Sidebar() {
+  return (
+    <div className="w-[230px] h-[590px] sticky top-16 bottom-0 overflow-y-scroll scrollbar-thin scrollbar-thumb-yt-gray scrollbar-track-gray-transparent scrollbar-track-rounded-full">
+      Sidebar
+      <h1>halooo</h1>
+      <h1>halooo</h1>
+      <h1>halooo</h1>
+      <h1>halooo</h1>
+      <h1>halooo</h1>
+      <h1>halooo</h1>
+      <h1>halooo</h1>
+      <h1>halooo</h1>
+      <h1>halooo</h1>
+      <h1>halooo</h1>
+      <h1>halooo</h1>
+      <h1>halooo</h1>
+      <h1>halooo</h1>
+      <h1>halooo</h1>
+      <h1>halooo</h1>
+      <h1>halooo</h1>
+      <h1>halooo</h1>
+      <h1>halooo</h1>
+      <h1>halooo</h1>
+      <h1>halooo</h1>
+      <h1>halooo</h1>
+      <h1>halooo</h1>
+      <h1>halooo</h1>
+      <h1>halooo</h1>
+      <h1>halooo</h1>
+      <h1>halooo</h1>
+      <h1>halooo</h1>
+      <h1>halooo</h1>
+      <h1>halooo</h1>
+      <h1>halooo</h1>
+      <h1>halooo</h1>
+      <h1>halooo</h1>
+      <h1>halooo</h1>
+      <h1>halooo</h1>
+      <h1>halooo</h1>
+      <h1>halooo</h1>
+      <h1>halooo</h1>
+      <h1>halooo</h1>
+      <h1>halooo</h1>
+      <h1>halooo</h1>
+      <h1>halooo</h1>
+      <h1>halooo</h1>
+      <h1>halooo</h1>
+      <h1>halooo</h1>
+      <h1>halooo</h1>
+      <h1>halooo</h1>
+      <h1>halooo</h1>
+      <h1>halooo</h1>
+      <h1>halooo</h1>
+    </div>
+  );
+}

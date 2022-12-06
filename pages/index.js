@@ -2,6 +2,8 @@ import Head from "next/head";
 import { useState } from "react";
 import Header from "../components/container/Header";
 import Section from "../components/container/Section";
+import Content from "../components/Content";
+import Sidebar from "../components/Sidebar";
 
 export default function Home() {
   const [isShow, setIsShow] = useState(true);
@@ -14,6 +16,10 @@ export default function Home() {
       </Head>
       <Section>
         <Header isShow={() => setIsShow(!isShow)} />
+        <div className="flex gap-x-6">
+          <Sidebar />
+          <Content />
+        </div>
       </Section>
     </>
   );
